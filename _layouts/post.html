@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<!-- nav bar -->
+
+  <body>
+    <div id="header">
+    	{% include page_header.html %}
+    </div>
+
+
+    <div class="post-page row">
+    
+      <!-- top row -->    
+           <div class="post-left-rail column small-12  medium-4 large-4">
+              
+              <div class="section-title">
+                <h2 class="hole-title">{{page.title}}</h2>
+                <h4 class="status">Water level: {{page.water}}</h4>
+              </div> 
+
+              <p class="hole-info">All the info:
+                <ul>City: {{page.city}}</ul>
+                <ul>Location: {{page.location}}</ul>
+                <ul>Type: {{page.type}}</ul>
+                <ul>Hours: {{page.hours}}</ul>
+                <ul>Cost: {{page.cost}}</ul>
+                <ul>Dogs: {{page.dogs}}</ul>
+                <ul>Kids: {{page.kids}}</ul>
+                <ul>Bikes: {{page.bikes}}</ul>
+                <ul>Distance to Taco Deli: {{page.taco}}
+              </p>
+
+          </div>   
+
+        <div class="post-right-rail column small-12 medium-7 large-7">
+            <div class="post-images">
+      <!-- image -->
+              <img src="{{page.cover_photo_url}}"="{{page.title}}">
+      <!-- map -->
+            </div>
+        </div>
+    </div> 
+    <div class="map row">
+      <a href="{{page.map}}"><img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=2000x150&scale=2&sensor=false&visual_refresh=true" alt=""></a>
+    </div>  
+
+    <!-- instagram -->      
+    <div class="instagram-container">
+      <div id="instafeed">
+      </div>
+    </div>
+
+   <!-- more holes -->  
+   <div class="more-holes row">
+       <h3>Choose another swimmin' hole.</h3>
+     {% for post in site.categories.swim%}
+        <div class="all-swim-holes column small-6 medium-4 large-3">
+          <a href="{{ post.url }}"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
+          <h4 class="title">{{ post.title }}</h4>
+          </a>
+        </div>
+      {% endfor %}
+  </div>
+
+     {% include footer.html %}
+
+
+  <script type="text/javascript">
+
+  // instagram 
+
+      var feed = new Instafeed({
+          get: 'tagged',
+          tagName: '{{page.hashtag}}',
+          clientId: 'ba83b3f0946047cdb3f90f1c39dc9958'
+      });
+
+      feed.run();
+
+  // map
+
+
+
+      //  $(window).load(function(){
+      //   $("#top-bar").sticky({ topSpacing: 0 });
+      // });
+
+  </script>
+
+  </body>
+</html>
