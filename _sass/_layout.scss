@@ -150,9 +150,7 @@
 //     color: white;
 // }
 
-.all-swim-holes {
-    margin-bottom: 1em;
-}
+
 
 /**
  * Site footer
@@ -225,7 +223,7 @@
 
 
 /**
- * Page content
+ * hole content
  */
 .page-content {
     max-width: 960px;
@@ -246,6 +244,20 @@
     font-size: 1.5em;
 }
 
+.swim-holes-container {
+    width: 95%;
+}
+
+.all-swim-holes {
+    margin-bottom: 1em;
+}
+
+.all-swim-holes img {
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 0 3.5px rgba(0, 0, 0, 0.1);
+}
+
 .post-list {
     margin-left: 0;
     list-style: none;
@@ -261,25 +273,22 @@
     
 // }
 
-.post-link {
-    display: block;
-    font-size: 24px;
-}
+// .post-link {
+//     display: block;
+//     font-size: 24px;
+// }
 
-.all-swim-holes img {
-    padding: 0;
-    margin: 0;
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-}
+
 
 
 
 /**
  * Posts
  */
-.post-header {
-    margin-bottom: $spacing-unit;
-}
+// .post-header {
+//     margin-bottom: $spacing-unit;
+//     // text-align: 
+// }
 
 // .post-title {
 //     font-size: 42px;
@@ -329,6 +338,68 @@
 //     max-width: initial;
 }
 
+.post-page h2 {
+    padding-left: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 3em;
+    margin-top: 0; 
+    padding-top: 0;
+   
+   
+}
+
+.post-page h4 {
+}
+
+.post-page p {
+    padding-left: .1em;
+    font-style: italic;
+}
+
+.status {
+    border: solid black thin;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    // display: inline block;
+    font-weight: 500;
+    margin-left: 0;
+}
+
+.hole-info ul {
+    margin: 0; 
+    padding: 0; 
+    line-height: 1.75;
+}
+
+
+.post-images img {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    // margin: 1em;
+}
+
+.map {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
+
+.map img{
+    // border: purple solid;
+    width: 100%
+   
+}
+
+#instafeed {
+    width: 100%;
+}
+
+.more-holes {
+    margin-top: 5em;
+}
+
 // .post-top-container {
 //     border: solid green;
 //     margin: auto;
@@ -365,47 +436,10 @@
 //     }
 // }
 
-.map {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: initial;
-}
 
-.map img{
-    // border: purple solid;
-    width: 100%
-   
-}
 
-#instafeed {
-    width: 100%;
-}
 
-.post-page h2 {
-    padding-left: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 3em;
-    margin-top: 0; 
-    padding-top: 0;
-   
-   
-}
 
-.post-page h4 {
-}
-
-.post-page p {
-    padding-left: .1em;
-    font-style: italic;
-}
-
-.hole-info ul {
-    margin: 0; 
-    padding: 0; 
-    line-height: 1.75;
-}
 
 // .post-body-copy {
 //     margin: 0; 
@@ -414,30 +448,14 @@
 // }
 
 
-.hole-info {
-    // float: right;
-}
 
-.section-title {
-    // text-align: center;
-}
+// .section-title {
+//     // text-align: center;
+// }
 
-.post-images img {
-    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    // margin: 1em;
-}
 
-.status {
-    border: solid black thin;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: .5em;
-    // display: inline block;
-    font-weight: 500;
-    margin-left: 0;
-}
 
-.more-holes {
-    margin-top: 5em;
-}
+
+
+
 
