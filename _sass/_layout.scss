@@ -1,18 +1,11 @@
-/**
- * Site header
- */
 
-// * {
-//     font-family: Lato;
-// }
+// UNIVERSAL top bar with nav
 
 .site-header {
     // border-top: 5px solid $grey-color-dark;
     // border-bottom: 1px solid $grey-color-light;
     min-height: 70px;
     position: relative;
-
-
 }
 
 .top-bar {
@@ -41,6 +34,7 @@
         color: $grey-color-dark;
     }
 }
+
 
 .site-nav {
     float: right;
@@ -109,52 +103,8 @@
     }
 }
 
+// UNIVERSAL site footer 
 
-.headline {
-    border: solid #FFFFFF 4px;
-    text-align: center;
-    // background: opacity(.75); 
-    padding: 3em;
-    position: absolute;
-    top: 26%;
-    width: 80%;
-    z-index: 1000;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #FFFFFF;
-}
-
-.headline h1 {
-    font-weight: 900;
-    color: #FFFFFF;
-    font-size: 3em;
-    text-shadow: grey-color-light 0.1em 0.1em 0.2em;
-}
-
-.headline h4 {
-    font-weight: 200;
-    color: #FFFFFF;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    text-shadow: grey-color-light 0.1em 0.1em 0.2em;
-}
-
-// .title {
-//     font-weight: 600;
-//     position: relative;
-//     text-align: center;
-//     // border: purple solid;
-//     position: absolute;
-//     top: 35%;
-//     width: 100%;
-//     color: white;
-// }
-
-
-
-/**
- * Site footer
- */
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -222,9 +172,55 @@
 
 
 
-/**
- * hole content
- */
+// HOMEPAGE main headline over image 
+
+.headline {
+    border: solid #FFFFFF 4px;
+    text-align: center;
+    // background: opacity(.75); 
+    padding: 3em;
+    position: absolute;
+    top: 26%;
+    width: 80%;
+    z-index: 1000;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #FFFFFF;
+}
+
+.headline h1 {
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 3em;
+    text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+}
+
+.headline h4 {
+    font-weight: 200;
+    color: #FFFFFF;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+}
+
+// .title {
+//     font-weight: 600;
+//     position: relative;
+//     text-align: center;
+//     // border: purple solid;
+//     position: absolute;
+//     top: 35%;
+//     width: 100%;
+//     color: white;
+// }
+
+
+
+
+
+
+// HOMEPAGE swimming hole grid section
+
 .page-content {
     max-width: 960px;
     margin: 0 auto;
@@ -300,7 +296,7 @@
 //     }
 // }
 
-
+// HOLE PAGE
 
 .post-page {
     margin-bottom: $spacing-unit;
