@@ -190,9 +190,9 @@
     color: #FFFFFF;
 
         @include media-query($on-laptop) {
-            // width: 83%;
-            margin-left: 8%;
-            margin-right: 8%;
+            width: 85%;
+            margin-left: 6%;
+            margin-right: 6%;
 
         }
 
@@ -231,7 +231,7 @@
     font-size: 1.4em;
 
         @include media-query($on-laptop) {
-            font-size: 1.1em;
+            font-size: 1.2em;
         }
 
         @include media-query($on-palm) {
