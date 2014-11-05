@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  gus fruh
+title:  Gus Fruh
 date:   2014-10-24 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly

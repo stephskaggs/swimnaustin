@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  mckinney falls
+title:  Mckinney Falls
 date:   2014-10-23 19:21:39
 category: swim
 tag: dog friendly, kid friendly, bike friendly
