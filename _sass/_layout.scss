@@ -266,12 +266,13 @@
 // }
 
 .swim-holes-home {
-    margin-top: 2em;
+    margin-top: 3em;
     // border: purple solid;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
     max-width: initial;
+    padding: 1em;
 }
 
 .hole-heading {
@@ -293,13 +294,7 @@
 // }
 
 .all-swim-holes {
-    // margin-bottom: 1em;
-    // margin-top: 1em;
-    // border: solid black;
     padding: .5em;
-    // margin: .5em;
-    // border: solid black;
-    // margin: 1em;
     position: center;
 
 
@@ -409,15 +404,16 @@
     // margin: 1em;
 }
 
-html, body, #map {
+html, body {
  height: 100%;
  margin: 0px;
  padding: 0px
 }
 
 /* Limit the height to 300px */
-#map {
- height: 300px;
+ #map {
+    width: 100%;
+    height: 500px;
 }
 
 #instafeed {
