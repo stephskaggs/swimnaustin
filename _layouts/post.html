@@ -44,8 +44,13 @@
             </div>
         </div>
     </div> 
-    <div class="map row">
-      <a href="{{page.map}}"><img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=2000x150&scale=2&sensor=false&visual_refresh=true" alt=""></a>
+   <!--  <div class="map row">
+      <a href="{{page.map}}"><img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=2000x150&scale=2&sensor=false&visual_refresh=true" alt=""></a> -->
+    
+    <div id="map">
+
+    </div>
+
     </div>  
 
     <!-- instagram -->      
@@ -83,6 +88,7 @@
       feed.run();
 
   // map
+
 
 
 

@@ -103,7 +103,7 @@
     }
 }
 
-// UNIVERSAL site footer 
+// UNIVERSAL site footer making changes to see if they show up in terminal 
 
 .site-footer {
     border-top: 1px solid $grey-color-light;
@@ -374,17 +374,15 @@
     // margin: 1em;
 }
 
-.map {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: initial;
+html, body, #map {
+ height: 100%;
+ margin: 0px;
+ padding: 0px
 }
 
-.map img{
-    // border: purple solid;
-    width: 100%
-   
+/* Limit the height to 300px */
+#map {
+ height: 300px;
 }
 
 #instafeed {
