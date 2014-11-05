@@ -6,19 +6,17 @@ layout: default
 
 <div class="home">
 
-  <h2 class="page-heading">THE LATEST ON THE BEST PLACES TO SWIM.</h2>
+  <h2 class="page-heading">GO SWIMMING.</h2>
   <h5 class="hole-intro"> A project born out of a love of swimming. And a hate of hiking to dry swimming holes. </h5>
     
  <section id="hole-thumbnails" class="page-content">
-   
-
  <!--    row 1 -->
     <div class="swim-holes-container row">
       
     {% for post in site.categories.swim%}
       <div class="all-swim-holes column small-12 medium-6 large-4">
         <a href="{{ post.url }}"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
-        <h4 class="title">{{ post.title }}</h4>
+        <h3 class="title">{{ post.title }}</h3>
         </a>
       </div>
     {% endfor %}
