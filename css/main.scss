@@ -8,7 +8,7 @@
 
 
 
-$base-font-family: Lato, Heveltica, sans-serif;
+$base-font-family: Brandon Grotesque, Heveltica, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -22,11 +22,18 @@ $brand-color:      #2a7ae2;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+	
+// $on-palm:          600px;
+// $on-laptop:        940px;
 
-$on-palm:          600px;
-$on-laptop:        940px;
 
+// $small-range: (0em, 40em); /* 0, 640px */
+// $medium-range: (40.063em, 64em); /* 641px, 1024px */
+// $large-range: (64.063em, 90em); /* 1025px, 1440px */
 
+$phone: 	(0em, 20em); // 0-320px
+$tablet: 	(20.063em, 45.500em); // 321-728
+$laptop: 	(45.563em); // 729+
 
 
 // Using media queries with like this:

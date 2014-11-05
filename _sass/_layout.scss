@@ -23,8 +23,8 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    font-weight: 600;
-    margin-left: 1.1em;
+    font-weight: 900;
+    margin-left: 1.2em;
     text-transform: lowercase;
     padding-top: .4em;
     color: #0d6893;
@@ -42,7 +42,7 @@
     float: right;
     line-height: 40px;
     font-weight: 700;
-    margin-right: 1.2em;
+    margin-right: 1.5em;
     font-size: .9em;
     padding-top: .7em;
 
@@ -55,13 +55,12 @@
         color: $text-color;
         line-height: $base-line-height;
 
-        // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 20px;
         }
     }
 
-    @include media-query($on-palm) {
+    @include media-query($phone) {
         position: absolute;
         top: 9px;
         right: 30px;
@@ -105,11 +104,12 @@
     }
 }
 
-// UNIVERSAL site footer making changes to see if they show up in terminal 
+// UNIVERSAL site footer 
 
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
 }
 
 .footer-heading {
@@ -151,7 +151,7 @@
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
 
-@include media-query($on-laptop) {
+@include media-query($laptop) {
     .footer-col-1,
     .footer-col-2 {
         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -164,7 +164,7 @@
     }
 }
 
-@include media-query($on-palm) {
+@include media-query($phone) {
     .footer-col {
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -177,9 +177,9 @@
 // HOMEPAGE main headline over image 
 
 .headline {
-    border: solid #FFFFFF 4px;
+    border: solid #FFFFFF 3px;
     text-align: center;
-    padding: 3em;
+    padding: 2em;
     position: absolute;
     top: 26%;
     width: 80%;
@@ -187,22 +187,80 @@
     margin-left: 10%;
     margin-right: 10%;
     color: #FFFFFF;
-}
 
-.headline h1 {
+    h1 {
     font-weight: 900;
     color: #FFFFFF;
-    font-size: 2.8em;
     text-shadow: grey-color-light 0.1em 0.1em 0.2em;
-}
+    font-size: 1.7em;
+    }
 
-.headline h4 {
+    h4 {
     font-weight: 200;
     color: #FFFFFF;
     padding-bottom: 0;
     margin-bottom: 0;
     text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+    
+    }
+
+    @include media-query($tablet) {
+        border: solid #FFFFFF 3px;
+        padding: .5em;
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+        top: 40%;
+
+            h1 {
+                font-size: 5rem;
+            }
+
+            h2 {
+                font-size: .4rem;
+            }
+    }
+
+      @include media-query($phone) {
+        border: solid #FFFFFF 3px;
+        padding: .3em;
+        width: 95%;
+        margin-right: 3%;
+        margin-left: 3%;
+        top: 40%;
+
+            h1 {
+                font-size: .5rem;
+            }
+
+            h2 {
+                font-size: .4rem;
+            }
+    }
+
 }
+
+// @include media-query($on-laptop) {
+//     .headline {
+//         max height: 
+//     }
+// }
+
+// .headline h1 {
+//     font-weight: 900;
+//     color: #FFFFFF;
+//     font-size: 2.8em;
+//     text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+// }
+
+
+// .headline h4 {
+//     font-weight: 200;
+//     color: #FFFFFF;
+//     padding-bottom: 0;
+//     margin-bottom: 0;
+//     text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+// }
 
 // .title {
 //     font-weight: 600;
@@ -309,7 +367,7 @@
     h2 {
         font-size: 32px;
 
-        @include media-query($on-laptop) {
+        @include media-query($laptop) {
             font-size: 28px;
         }
     }
@@ -317,7 +375,7 @@
     h3 {
         font-size: 26px;
 
-        @include media-query($on-laptop) {
+        @include media-query($laptop) {
             font-size: 22px;
         }
     }
@@ -325,7 +383,7 @@
     h4 {
         font-size: 20px;
 
-        @include media-query($on-laptop) {
+        @include media-query($laptop) {
             font-size: 18px;
         }
     }
