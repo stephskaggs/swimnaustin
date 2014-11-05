@@ -179,13 +179,15 @@
 .headline {
     border: solid #FFFFFF 3px;
     text-align: center;
-    padding: 2em;
+    // padding: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     position: absolute;
-    top: 26%;
-    width: 80%;
+    top: 28%;
+    width: 94%;
     z-index: 1000;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 3%;
+    margin-right: 3%;
     color: #FFFFFF;
 
     h1 {
@@ -201,43 +203,55 @@
     padding-bottom: 0;
     margin-bottom: 0;
     text-shadow: grey-color-light 0.1em 0.1em 0.2em;
-    
+    font-size: 1em;
     }
 
-    @include media-query($tablet) {
-        border: solid #FFFFFF 3px;
-        padding: .5em;
-        width: 90%;
-        margin-right: 5%;
-        margin-left: 5%;
-        top: 40%;
+    // @include media-query($tablet) {
+    //     // border: solid #FFFFFF 3px;
+    //     border: solid purple 3px;
+    //     // padding: .5em;
+    //     // width: 80%;
+    //     // margin-right: 5%;
+    //     // margin-left: 5%;
+    //     // top: 40%;
+
+
+    //         h1 {
+    //             font-size: 10em;
+    //         }
+
+    //         h2 {
+    //             font-size: 10em;
+    //         }
+    // }
+
+    @include media-query($laptop) {
+            border: solid #FFFFFF 4px;
+            text-align: center;
+            padding: 3em;
+            position: absolute;
+            top: 26%;
+            width: 80%;
+            z-index: 1000;
+            margin-left: 10%;
+            margin-right: 10%;
+            color: #FFFFFF;
 
             h1 {
-                font-size: 5rem;
+            font-weight: 900;
+            color: #FFFFFF;
+            font-size: 2.8em;
+            text-shadow: grey-color-light 0.1em 0.1em 0.2em;
             }
 
-            h2 {
-                font-size: .4rem;
-            }
+            h4 {
+            font-weight: 200;
+            color: #FFFFFF;
+            padding-bottom: 0;
+            margin-bottom: 0;
+            text-shadow: grey-color-light 0.1em 0.1em 0.2em;
+            } 
     }
-
-      @include media-query($phone) {
-        border: solid #FFFFFF 3px;
-        padding: .3em;
-        width: 95%;
-        margin-right: 3%;
-        margin-left: 3%;
-        top: 40%;
-
-            h1 {
-                font-size: .5rem;
-            }
-
-            h2 {
-                font-size: .4rem;
-            }
-    }
-
 }
 
 // @include media-query($on-laptop) {
