@@ -61,11 +61,11 @@
 
    <!-- more holes -->  
    <div class="more-holes row">
-       <h3>Choose another swimmin' hole.</h3>
+       <h4>Choose another swimmin' hole.</h4>
      {% for post in site.categories.swim%}
         <div class="all-swim-holes column small-6 medium-4 large-3">
           <a href="{{ post.url }}"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
-          <h4 class="title">{{ post.title }}</h4>
+          <h5 class="title">{{ post.title }}</h5>
           </a>
         </div>
       {% endfor %}
