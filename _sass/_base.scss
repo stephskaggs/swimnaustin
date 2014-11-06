@@ -12,23 +12,23 @@ dl, dd, ol, ul, figure {
     color: $text-color;
 }
 
-h1, h2, h3, h4, h5 {
-    letter-spacing: 1px;
 
-}
 
 h1 {
     font-weight: 900;
+    letter-spacing: 1px;
     // letter-spacing: .01em;
 }
 
 h2 {
     font-weight: 700;
+    letter-spacing: .5px;
 
 }
 
 h3 {
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 h4 {
@@ -49,7 +49,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 100;
+    font-weight: 400;
     color: $text-color;
     background-color: $background-color;
 }
@@ -104,6 +104,7 @@ li {
     > ul,
     > ol {
          margin-bottom: 0;
+         line-height: 1;
     }
 }
 

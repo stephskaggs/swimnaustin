@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Barking Springs
+date:   2014-10-31 19:21:39
+category: swim
+tag: dog freindly, kid friendly
+cover_photo_url: /img/barking.jpg
+credit: Flickr credit to criminalintent
+locations: ○	30.264106, -97.769288
+water: Should have some water
+type: Park and swim 
+cost: Free
+hours: Always open
+city: Austin
+location: Zilker Park
+dogs: Yup
+kids: Yup
+bikes: No really
+taco: 6 miles
+map: https://goo.gl/maps/H0Jwy 
+hashtag: barkingsprings
+---
+
+

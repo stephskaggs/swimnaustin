@@ -14,7 +14,7 @@
         </a>
 
         <div class="trigger">
-            <a class="page-link" href="#swim">GRAB YOUR SUIT.</a>
+            <a class="page-link" href="#swim">GO SWIMMING.</a>
           {% for page in site.pages %}
             {% if page.title %}
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -35,7 +35,9 @@
       </div>
       <div id="slides">
           <div><img src="img/hero1.jpg" alt=""></div>
-          <div><img src="img/hero1.jpg" alt=""></div>
+          <div><img src="img/hero2.jpg" alt=""></div>
+          <div><img src="img/hero3.jpg" alt=""></div>
+          <div><img src="img/hero4.jpg" alt=""></div>
       </div>
    </div>
 
@@ -48,7 +50,7 @@
         <script type="text/javascript">
             $("#slides").slick({
                 autoplay: true,
-                autoplaySpeed: 2000, 
+                autoplaySpeed: 3000, 
                 fade: true,
                 cssEase: 'linear'
             });
