@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Emma Long
+date:   2002-10-31 19:21:39
+category: swim
+tag: kid friendly, dog friendly, bike friendly
+cover_photo_url: /img/emmalong.jpg
+credit: Flickr credit to criminalintent  
+locations: 30.343472, -97.835535  
+water: Always has water
+type: Park and swim 
+cost: $5 Monday-Thursday $10 Weekends
+hours: 7am-10pm 
+city: Austin
+location: Lake Austin
+dogs: Yup
+kids: Yup
+bikes: Yup
+taco: 13.4 miles
+map: https://goo.gl/maps/w3L2Q
+hashtag: emmalong
+---
+
+

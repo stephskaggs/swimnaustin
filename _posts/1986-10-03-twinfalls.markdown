@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Twin Falls 
-date:   2014-10-27 19:21:39
+date:   1986-10-27 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/twinfalls.jpg
 credit: Flickr credit to fabfemme
 locations: 30.248804, -97.812887 
-water: Could be dry
+water: Depends on rain
 type: Hike to swim (1 mile-ish)
 cost: Free
 hours: always open
