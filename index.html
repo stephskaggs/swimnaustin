@@ -2,33 +2,30 @@
 layout: default
 ---
 
-<div class="home">
 
-  <h2 class="page-heading">THE LATEST ON THE BEST PLACES TO SWIM.</h2>
-  <h5 class="hole-intro"> A project born out of a love of swimming. And a hate of hiking to dry swimming holes. </h5>
+
+<div class="swim-holes-home">
+
+  <h2 class="hole-heading">GRAB YOUR SUIT.</h2>
+  <h5 class="hole-intro">GET THE INFO ON ALL THE BEST PLACES TO SWIM AROUND TOWN.</h5>
     
- <section id="hole-thumbnails" class="page-content">
-   
-
+ <section id="hole-thumbnails">
  <!--    row 1 -->
-    <div class="row">
+    <div class="swim-holes-container row">
       
     {% for post in site.categories.swim%}
       <div class="all-swim-holes column small-12 medium-6 large-4">
-        <a href="{{ post.url }}"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
-        <h4 class="title">{{ post.title }}</h4>
+        <a href="{{ post.url }}" class="darken"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
+        <h1 class="hole-title">{{ post.title }}</h1>
         </a>
       </div>
     {% endfor %}
 
-   </div>
+    </div> 
 </section>
-  
-
-    
-   
-
-
-  
 
 </div>
+
+
+
+

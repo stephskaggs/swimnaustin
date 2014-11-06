@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  twin falls 
+title:  Twin Falls 
 date:   2014-10-27 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly

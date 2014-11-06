@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  sculpture falls
+title: Sculpture Falls
 date:   2014-10-26 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly

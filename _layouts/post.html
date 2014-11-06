@@ -44,9 +44,14 @@
             </div>
         </div>
     </div> 
-    <div class="map row">
-      <a href="{{page.map}}"><img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=2000x150&scale=2&sensor=false&visual_refresh=true" alt=""></a>
-    </div>  
+   <!--  <div class="map row">
+      <a href="{{page.map}}"><img src="http://maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=2000x150&scale=2&sensor=false&visual_refresh=true" alt=""></a> -->
+    
+    <div id="map">
+
+    </div>
+
+ 
 
     <!-- instagram -->      
     <div class="instagram-container">
@@ -56,11 +61,11 @@
 
    <!-- more holes -->  
    <div class="more-holes row">
-       <h3>Choose another swimmin' hole.</h3>
+       <h4>Choose another swimmin' hole.</h4>
      {% for post in site.categories.swim%}
         <div class="all-swim-holes column small-6 medium-4 large-3">
           <a href="{{ post.url }}"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
-          <h4 class="title">{{ post.title }}</h4>
+          <h5 class="title">{{ post.title }}</h5>
           </a>
         </div>
       {% endfor %}
@@ -77,11 +82,32 @@
           get: 'tagged',
           tagName: '{{page.hashtag}}',
           clientId: 'ba83b3f0946047cdb3f90f1c39dc9958'
+          // resolution: '612x612'
       });
 
       feed.run();
 
   // map
+        google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+
+    
+var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 11,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng({{page.locations}}), // 
+        
+        styles: [{"featureType":"administrative","stylers":[{"visibility":"off"}]},{"featureType":"poi","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels","stylers":[{"visibility":"simplified"}]},{"featureType":"water","stylers":[{"visibility":"simplified"}]},{"featureType":"transit","stylers":[{"visibility":"simplified"}]},{"featureType":"landscape","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"visibility":"off"}]},{"featureType":"road.local","stylers":[{"visibility":"on"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"visibility":"on"}]},{"featureType":"water","stylers":[{"color":"#84afa3"},{"lightness":52}]},{"stylers":[{"saturation":-17},{"gamma":0.36}]},{"featureType":"transit.line","elementType":"geometry","stylers":[{"color":"#3f518c"}]}]
+    };
+
+    var mapElement = document.getElementById('map');
+
+                // Create the Google Map using out element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+            }
 
 
 
