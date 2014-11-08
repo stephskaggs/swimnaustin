@@ -1,0 +1,26 @@
+---
+layout: post
+title:  Common's Ford
+date:   2006-10-27 19:21:39
+category: swim
+tag: dog freindly, kid friendly, bike friendly
+cover_photo_url: /img/commonsford.jpg
+credit: Flickr credit to byeagle 
+locations: 30.337939, -97.891117
+water: Always has water
+type: Park to swim 
+cost: Free
+hours: 5am-10pm (Closed Mondays)
+city: Austin
+location: Westlake
+dogs: Yup
+kids: Yup
+bikes: Yup
+taco: 10.7 miles
+map: https://goo.gl/maps/l70TT 
+hashtag: commonsford
+
+---
+
+
+

@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Barton Springs
+date:   2012-10-31 19:21:39
+category: swim
+tag: dog freindly, kid friendly
+cover_photo_url: /img/bartonsprings.jpg
+credit: Flickr credit to burmajones
+locations: 30.263884, -97.771370
+water: Always has water
+type: Park and swim 
+cost: $1-4 during summer
+hours: 5am-10pm
+city: Austin
+location: Zilker Park
+dogs: Yup
+kids: Yup
+bikes: Racks out front
+taco: 2 miles
+map: https://goo.gl/maps/bnY0l 
+hashtag: bartonsprings 
+---
+
+

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Sculpture Falls
-date:   2014-10-26 19:21:39
+date:   1988-10-26 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/sculpture.jpg
 credit: Flickr credit to fabfemme
 locations: 30.261733, -97.823282 
-water: Could be dry
+water: Depends on rain
 type: Hike to swim (6.7 mile-ish roundtrip)
 cost: Free
 hours: Always open

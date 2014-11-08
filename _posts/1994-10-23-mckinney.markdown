@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Mckinney Falls
-date:   2014-10-23 19:21:39
+date:   1994-10-23 19:21:39
 category: swim
 tag: dog friendly, kid friendly, bike friendly
 cover_photo_url: /img/mckinney.jpg
 credit: Flickr credit to mlhradio
 locations: 30.180947, -97.722384
-water: Likely has some water
+water: Always has water
 type: Park and swim 
 cost: $6 (adults) Free (12 and under)
 hours: 8am-10pm
