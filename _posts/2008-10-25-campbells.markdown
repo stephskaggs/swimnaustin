@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Campbell's Hole
-date:   2014-10-28 19:21:39
+date:   2008-10-28 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/campbell.jpg
 credit: Flickr credit to paddymurphy
 locations: 30.257106, -97.786413
-water: Could be dry
+water: Depends on rain
 type: Hike to swim (0.5 mile-ish roundtrip)
 cost: Free
 hours: Always open

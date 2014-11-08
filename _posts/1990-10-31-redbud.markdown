@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Red Bud Isle
+date:   1990-10-31 19:21:39
+category: swim
+tag: kid friendly
+cover_photo_url: /img/redbud.jpg
+credit: Flickr credit to jimnix    
+locations: 30.292098, -97.787011   
+water: Always has water
+type: Short hike to swim 
+cost: Free
+hours: 5am-10pm 
+city: Austin
+location: Westlake
+dogs: Yup
+kids: Yup
+bikes: Yup
+taco: 3.7 miles
+map: https://goo.gl/maps/CzJlJ 
+hashtag: redbudisle
+---
+
+

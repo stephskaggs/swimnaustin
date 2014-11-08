@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  Gus Fruh
-date:   2014-10-24 19:21:39
+date:   2000-10-24 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/gus.jpg
 credit: Flickr credit to ret0dd 
 locations: 30.249322, -97.796646
-water: Probably dry
+water: Depends on rain
 type: Hike and swim (2.5 miles roundtrip)
 cost: Free
 hours: Always open

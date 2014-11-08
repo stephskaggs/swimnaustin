@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Deep Eddy
+date:   2004-10-31 19:21:39
+category: swim
+tag: kid friendly
+cover_photo_url: /img/deepeddy.jpg
+credit: Flickr credit to sselhcuo 
+locations: 30.276859, -97.773265 
+water: Always has water
+type: Park and swim 
+cost: Free
+hours: 7am-10pm (watch out for seasonal/holiday hours)
+city: Austin
+location: West Austin
+dogs: Nope
+kids: Yup
+bikes: Racks outside
+taco: 2.4 miles
+map: https://goo.gl/maps/yAoQo 
+hashtag: deepeddypool
+---
+
+
