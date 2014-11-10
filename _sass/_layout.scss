@@ -13,6 +13,8 @@
 	background-color: #ffffff;
     // background-color: #0d6893;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    border: solid black;
     // width: 100% ! important;
     // left: 0px;
 }
@@ -27,7 +29,7 @@
     margin-left: 1.2em;
     text-transform: lowercase;
     padding-top: .4em;
-    color: #0d6893;
+    color: $text-color;
 
     // border: black solid;
 
@@ -110,6 +112,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: white;
 
 }
 

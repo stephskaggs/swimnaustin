@@ -2,6 +2,20 @@
 layout: default
 ---
 
+<div class="hero">
+
+      <div class="headline">
+                  <h4>- a complete guide -</h4>
+                  <h1>AUSTIN SWIMMIN' HOLES</h1>
+                  
+      </div>
+      <div id="slides">
+          <div><img src="img/hero1.jpg" alt=""></div>
+          <div><img src="img/hero2.jpg" alt=""></div>
+          <div><img src="img/hero3.jpg" alt=""></div>
+          <div><img src="img/hero4.jpg" alt=""></div>
+      </div>
+</div>
 
 
 <div class="swim-holes-home" id="swim">
@@ -22,10 +36,63 @@ layout: default
     {% endfor %}
 
     </div> 
-</section>
+  </section>
 
 </div>
 
+<!-- end of swimming hole links -->
 
 
+<!-- section split with image -->
+
+<div class="section-image"><img src="img/subhero1.jpg" alt=""></div>
+
+<!-- beginning of about -->
+
+<div class=row>
+
+  <div class="swim-holes-home column small-12" id="story">
+
+
+      <h2 class="hole-heading">THE STORY</h2>
+      <h5 class="hole-intro">a project born out of a love of swimming.</h5>
+      <p class="hole-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
+  </div> 
+
+</div>
+
+<!-- end story section -->
+
+
+<!-- section split with image -->
+
+<div class="section-image"><img src="img/subhero2.jpg" alt=""></div>
+
+
+<!-- beginning of contact -->
+
+<div class=row>
+
+  <div class="swim-holes-home column small-12" id="contact">
+
+
+      <h2 class="hole-heading">GET IN TOUCH</h2>
+      <h5 class="hole-intro">Know a hole we don't know?</h5>
+      <p class="hole-body">Know a spot we should add to our list? Interested in advertising? Want to report an embarrasing typo? Get in touch for any reason. Just send an email to the address below.</p>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    
+  </div> 
+
+</div>
+
+  <script src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $("#slides").slick({
+                autoplay: true,
+                autoplaySpeed: 3100, 
+                fade: true,
+                cssEase: 'linear'
+            });
+  </script>
 
