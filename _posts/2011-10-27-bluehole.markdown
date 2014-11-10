@@ -1,0 +1,24 @@
+---
+layout: post
+title:  Blue Hole
+date:   2011-10-29 19:21:39
+category: swim
+tag: kid friendly
+cover_photo_url: /img/bluehole.jpg
+credit: Flickr credit to taramarie
+locations: 30.002142, -98.087315 
+water: Always has water 
+type: Park to swim and hike
+cost: $5-9
+hours: 10am-6pm
+city: Wimberly
+location: Blue Hole State Park
+dogs: Nope
+kids: Yup
+bikes: Yup
+taco: 36.5 miles
+map: https://goo.gl/maps/Qryub 
+hashtag: bluehole
+---
+
+
