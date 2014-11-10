@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Hippe Hollow
+title:  Hippie Hollow
 date:   1997-10-29 19:21:39
 category: swim
 tag: dog friendly

@@ -20,13 +20,13 @@
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
           {% endfor %}
-          <a class="page-link" href="#contact">GET IN TOUCH.</a>
+        <!--   <a class="page-link" href="#contact">GET IN TOUCH.</a> -->
 
         </div>
       </nav>
     </div>
      
-     <!-- <div class="hero">
+     <div class="hero">
 
       <div class="headline">
                   <h4>- a complete guide -</h4>
@@ -39,10 +39,19 @@
           <div><img src="img/hero3.jpg" alt=""></div>
           <div><img src="img/hero4.jpg" alt=""></div>
       </div>
-   </div> -->
+</div>
 
 <!--   </div> -->
 
 </header>
 
+  <script src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $("#slides").slick({
+                autoplay: true,
+                autoplaySpeed: 3100, 
+                fade: true,
+                cssEase: 'linear'
+            });
+  </script>
 
