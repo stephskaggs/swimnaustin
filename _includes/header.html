@@ -26,32 +26,30 @@
       </nav>
     </div>
      
-     <div class="hero">
+     <!-- <div class="hero">
 
-      <div class="headline">
-                  <h4>- a complete guide -</h4>
-                  <h1>AUSTIN SWIMMIN' HOLES</h1>
-                  
-      </div>
-      <div id="slides">
-          <div><img src="img/hero1.jpg" alt=""></div>
-          <div><img src="img/hero2.jpg" alt=""></div>
-          <div><img src="img/hero3.jpg" alt=""></div>
-          <div><img src="img/hero4.jpg" alt=""></div>
-      </div>
-</div>
+        <div class="headline">
+                    <h4>- a complete guide -</h4>
+                    <h1>AUSTIN SWIMMIN' HOLES</h1>
+                    
+        </div>
+        <div id="slides">
+            <div><img src="img/hero1.jpg" alt=""></div>
+            <div><img src="img/hero2.jpg" alt=""></div>
+            <div><img src="img/hero3.jpg" alt=""></div>
+            <div><img src="img/hero4.jpg" alt=""></div>
+        </div>
+      </div> -->
 
 <!--   </div> -->
 
 </header>
 
-  <script src="js/slick.min.js"></script>
-        <script type="text/javascript">
-            $("#slides").slick({
-                autoplay: true,
-                autoplaySpeed: 3100, 
-                fade: true,
-                cssEase: 'linear'
-            });
-  </script>
+  <script type="text/javascript" src="/js/jquery.sticky.js"></script> 
+    <script>
+      $(window).load(function(){
+        $("#header").sticky({ topSpacing: 0 });
+      });
+    </script>
+ 
 
