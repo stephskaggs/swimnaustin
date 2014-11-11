@@ -11,7 +11,8 @@
     </div>
 
 
-<div class="section-image"><img src="{{page.hero}}"alt=""></div>
+<div class="section-image"><img src="{{page.hero | prepend: site.baseurl }}"alt=""></div>
+                    
 
 <div class=row>
 
@@ -20,10 +21,12 @@
 
       <h2 class="hole-heading">{{page.title}}</h2>
       <h5 class="hole-intro">{{page.subhead}}</h5>
-      <p class="hole-body">{{page.copy}}</p>
     
-  </div> 
-
+ 
+   <article class="post-content">
+      {{ content }}
+    </article>
+   </div> 
 </div>
 
      {% include footer.html %}

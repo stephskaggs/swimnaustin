@@ -1,13 +1,20 @@
 ---
 layout: page
 title: THE STORY.
-subhead: a project born out of a love of swimming.
-permalink: /about
+subhead: a project born out of a love of swimming. and a hate of hiking to dry swimming holes. 
+permalink: /about/
 hero: /img/subhero1.jpg
-copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
 
 --- 
 
-<h class="hole-heading">Flickr credits</h2>
-      <h5 class="hole-intro">Thanks to these fine folks for their fine pictures.</h5>
-      <p class="hole-body">{{page.copy}}</p>
+<p>If you’ve spent a summer in Austin you understand why swimming holes are so popular. It's really hot here. Like, really hot. Coincidentally, swimming holes are cool. (No apologies for the pun. They are.)</p>
+
+<p>But after a few years and dozens (and dozens) of trips to swimming holes throughout each summer, we got annoyed with checking a bunch of different sites to find hours, costs, parking information, blah, blah, blah. And then checking Instagram to see the status. Water? No water? Big crowd? Completely deserted?</p>
+
+<p>And that’s where this site comes in. See the swimming holes. Get the information. Check Instagram.</p>
+
+<p>Easy.Now grab your suit and go swimming.</p>
+
+
+  

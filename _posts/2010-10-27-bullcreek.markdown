@@ -5,7 +5,7 @@ date:   2010-10-29 19:21:39
 category: swim
 tag: barton creek greenbelt, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/bullcreek.jpg
-credit: Flickr credit to tokyofortw
+credit: tokyofortw
 locations: 30.366330, -97.787216
 water: Should have some water
 type: Hike to swim 
@@ -19,6 +19,7 @@ bikes: Yup
 taco: 6.4 miles
 map: https://goo.gl/maps/mqAP1
 hashtag: bullcreek
+permalink: /bullcreek/
 ---
 
 

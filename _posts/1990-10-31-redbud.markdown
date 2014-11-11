@@ -5,7 +5,7 @@ date:   1990-10-31 19:21:39
 category: swim
 tag: kid friendly
 cover_photo_url: /img/redbud.jpg
-credit: Flickr credit to jimnix    
+credit: jimnix    
 locations: 30.292098, -97.787011   
 water: Always has water
 type: Short hike to swim 
@@ -19,6 +19,7 @@ bikes: Yup
 taco: 3.7 miles
 map: https://goo.gl/maps/CzJlJ 
 hashtag: redbudisle
+permalink: /redbudisle/
 ---
 
 

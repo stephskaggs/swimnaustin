@@ -19,6 +19,7 @@ bikes: Racks outside
 taco: 2.4 miles
 map: https://goo.gl/maps/yAoQo 
 hashtag: deepeddypool
+permalink: /deepeddypool/
 ---
 
 

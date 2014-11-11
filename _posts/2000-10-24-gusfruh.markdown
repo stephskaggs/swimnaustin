@@ -5,7 +5,7 @@ date:   2000-10-24 19:21:39
 category: swim
 tag: barton creek greenbelt, near taco deli, dog freindly, kid friendly, bike friendly
 cover_photo_url: /img/gus.jpg
-credit: Flickr credit to ret0dd 
+credit: ret0dd 
 locations: 30.249322, -97.796646
 water: Depends on rain
 type: Hike and swim (2.5 miles roundtrip)
@@ -19,6 +19,7 @@ bikes: Yup
 taco: 1 mile
 map: https://goo.gl/maps/ZJNdH
 hashtag: gusfruh
+permalink: /gusfruh/
 ---
 
 
