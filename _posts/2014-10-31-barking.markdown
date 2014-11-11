@@ -5,7 +5,7 @@ date:   2014-10-31 19:21:39
 category: swim
 tag: dog freindly, kid friendly
 cover_photo_url: /img/barking.jpg
-credit: Flickr credit to criminalintent
+credit: criminalintent
 locations: 30.264106, -97.769288
 water: Always has water
 type: Park and swim 

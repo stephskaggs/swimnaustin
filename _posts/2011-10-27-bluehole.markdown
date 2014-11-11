@@ -5,7 +5,7 @@ date:   2011-10-29 19:21:39
 category: swim
 tag: kid friendly
 cover_photo_url: /img/bluehole.jpg
-credit: Flickr credit to taramarie
+credit: taramarie
 locations: 30.002142, -98.087315 
 water: Always has water 
 type: Park to swim and hike

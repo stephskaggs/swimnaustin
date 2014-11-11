@@ -5,7 +5,7 @@ date:   1987-10-29 19:21:39
 category: swim
 tag: dog friendly
 cover_photo_url: /img/stedwards.jpg
-credit: Flickr credit to cherrybream
+credit: cherrybream
 locations: 30.405802, -97.791266 
 water: Always has water 
 type: Hike to swim (4 mile roundtrip)

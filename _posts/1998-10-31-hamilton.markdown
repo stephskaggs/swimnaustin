@@ -5,7 +5,7 @@ date:   1998-10-31 19:21:39
 category: swim
 tag: kid friendly
 cover_photo_url: /img/hamiltonpool.jpg
-credit: Flickr credit to jimnix   
+credit: jimnix   
 locations: 30.342395, -98.127443   
 water: Always has water
 type: Park and swim 

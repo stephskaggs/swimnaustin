@@ -5,7 +5,7 @@ date:   2002-10-31 19:21:39
 category: swim
 tag: kid friendly, dog friendly, bike friendly
 cover_photo_url: /img/emmalong.jpg
-credit: Flickr credit to criminalintent  
+credit: criminalintent  
 locations: 30.343472, -97.835535  
 water: Always has water
 type: Park and swim 
