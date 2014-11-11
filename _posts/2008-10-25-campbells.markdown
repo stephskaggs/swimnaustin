@@ -19,6 +19,7 @@ bikes: Yup
 taco: 0.25 miles
 map: https://goo.gl/maps/be4xv 
 hashtag: campbellshole
+permalink: /campbellshole/
 ---
 
 

@@ -19,6 +19,7 @@ bikes: Yup
 taco: 6.4 miles
 map: https://goo.gl/maps/mqAP1
 hashtag: bullcreek
+permalink: /bullcreek/
 ---
 
 

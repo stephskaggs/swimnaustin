@@ -19,6 +19,7 @@ bikes: Yup
 taco: 40 miles
 map: https://goo.gl/maps/CzJlJ 
 hashtag: pedernales
+permalink: /pedernales/
 ---
 
 

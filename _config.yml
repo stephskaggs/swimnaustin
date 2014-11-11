@@ -3,7 +3,7 @@ title: Swimmin' Austin
 email: swimminaustin@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   This project was born out of a love of hiking to swimmin' holes. And a hate of hiking to dry swimmin' holes. 
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.swimminaustin" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll

@@ -19,6 +19,7 @@ bikes: Yup
 taco: 18.1 miles
 map: https://goo.gl/maps/Qryub 
 hashtag: hippiehollow
+permalink: /hippiehollow/
 ---
 
 

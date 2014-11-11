@@ -19,6 +19,7 @@ bikes: Yup
 taco: 11.8 miles
 map: https://goo.gl/maps/KMH6D
 hashtag: mckinneyfalls
+permalink: /mckinneyfalls/
 ---
 
 

@@ -19,6 +19,7 @@ bikes: Yup
 taco: 36.5 miles
 map: https://goo.gl/maps/Qryub 
 hashtag: bluehole
+permalink: /bluehole/
 ---
 
 

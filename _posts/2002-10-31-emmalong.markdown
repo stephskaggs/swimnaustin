@@ -19,6 +19,7 @@ bikes: Yup
 taco: 13.4 miles
 map: https://goo.gl/maps/w3L2Q
 hashtag: emmalong
+permalink: /emmalong/
 ---
 
 

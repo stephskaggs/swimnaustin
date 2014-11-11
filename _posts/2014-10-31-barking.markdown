@@ -19,6 +19,7 @@ bikes: Not really
 taco: 2 miles
 map: https://goo.gl/maps/H0Jwy 
 hashtag: barkingsprings
+permalink: /barkingsprings/
 ---
 
 

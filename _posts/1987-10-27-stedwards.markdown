@@ -19,6 +19,7 @@ bikes: Yup
 taco: 14.7 miles
 map: https://goo.gl/maps/klwSI 
 hashtag: stedwards
+permalink: /stedwards/
 ---
 
 

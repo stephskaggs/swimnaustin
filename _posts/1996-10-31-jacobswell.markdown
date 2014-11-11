@@ -19,6 +19,7 @@ bikes: Nope
 taco: 32.2 miles
 map: https://goo.gl/maps/CzJlJ 
 hashtag: jacobswell
+permalink: /jacobswell/
 ---
 
 

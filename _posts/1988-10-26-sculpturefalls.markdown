@@ -19,6 +19,7 @@ bikes: Yup
 taco: 3.8 miles
 map: https://goo.gl/maps/Xh1h6
 hashtag: sculpturefalls
+permalink: /sculpturefalls/
 ---
 
 

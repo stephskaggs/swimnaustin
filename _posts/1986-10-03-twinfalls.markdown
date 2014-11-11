@@ -19,6 +19,7 @@ bikes: Yup
 taco: 2 miles
 map: https://goo.gl/maps/vl8mJ
 hashtag: twinfalls
+permalink: /twinfalls/
 
 ---
 
