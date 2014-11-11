@@ -591,12 +591,17 @@ html, body {
 
 
 .email-callout {
+    margin-bottom: 3em;
+
     a {
     text-align: center;
     font-size: 1.8em;
     display: block;
-    color: grey-color;
-  
+    color: $grey-color-dark;
+    }
+
+    a:hover {
+    color: $grey-color;
     }
 }
 
