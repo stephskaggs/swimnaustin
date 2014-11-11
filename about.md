@@ -1,7 +1,7 @@
 ---
 layout: page
 title: THE STORY.
-subhead: a project born out of a love of swimming. and a hate of hiking to dry swimming holes. 
+subhead: a project born out of a love of swimming. And a hate of Austin heat.
 permalink: /about/
 hero: /img/subhero1.jpg
 
@@ -14,7 +14,7 @@ hero: /img/subhero1.jpg
 
 <p>And that’s where this site comes in. See the swimming holes. Get the information. Check Instagram.</p>
 
-<p>Easy.Now grab your suit and go swimming.</p>
+<p>You're welcome. Now grab your suit and go swimming.</p>
 
 
   

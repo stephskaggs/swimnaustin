@@ -132,7 +132,12 @@
     padding: $spacing-unit 0;
     background-color: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    min-height: auto; 
+    min-height: 50px; 
+    // max-height: 50px;
+
+    h5 {
+        margin-bottom: .2em;
+    }
 
 }
 
@@ -294,8 +299,8 @@
 
 .hole-intro {
     text-align: center;
-    font-weight: 500;
-    font-size: .9em;
+    font-weight: 400;
+    font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5px;
 }
@@ -585,7 +590,19 @@ html, body {
     max-width: initial;
     padding: 1em;
     min-height: 15em;
+   
 
+    p {
+
+    width: 75%;
+    // border: black solid;
+  
+    // position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    }
 
 }
 
