@@ -132,13 +132,42 @@
     padding: $spacing-unit 0;
     background-color: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    min-height: 50px; 
+    // min-height: auto; 
+    height: auto;
     // max-height: 50px;
+    // border: black solid;
+
 
     h5 {
-        margin-bottom: .2em;
+        margin-bottom: .1em;
+        font-size: .9em;
+        // border: black solid;
+        // text-transform: uppercase;
     }
 
+    .social {
+        align: center;
+        }
+
+        .social-links  {
+        opacity: 0.8;
+        align: center;
+        padding-right: 1.5em;
+        padding-left: 1em;
+        // border: black solid;
+    }   
+
+    p {
+        font-size: .8em;
+    }
+
+    .column {
+        border: black solid;
+    }
+
+    a {
+      font-size: .8em;  
+    }
 }
 
 // .footer-heading {
@@ -303,6 +332,7 @@
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5px;
+    margin-bottom: 1.1em;
 }
 
 // #hole-thumbnails {
