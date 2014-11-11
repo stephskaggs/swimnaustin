@@ -1,7 +1,7 @@
-  <section class="site-footer">
+<!--   <section class="site-footer">
 
 
-            <div class="row">
+          <div class="row">
                
                 <div class="email columns small-12 large-4">
                     <h5>Want to get in touch?</h5>
@@ -10,10 +10,39 @@
 
         
 
-                <div class="press columns small-12 large-8">
+                <div class="flickr columns small-12 large-6">
                     <h5> Shout out to the Flickr folks who made this site happen.<h5>
-                   <!--  <a href class="page-link" href="contact"</a> -->
                     <p> Credits listed throughout the site</p>
+                </div>
+
+          </div>
+
+  </section> -->
+
+    <section class="site-footer">
+
+            <!-- TODO add a foundation row wrapping this content. do  -->
+            <div class="row">
+                <!-- TODO for each of these 3 divs, add foundation columns so that they sit side by side. make them stack at small screen sizes. -->
+
+                <div class="email columns small-12 large-4">
+                    <h5>Get in touch</h5>
+                    <a href="mailto:swimminaustin@gmail.com">swimminaustin@gmail.com</a>
+                </div>
+
+                <div class="social columns small-4">
+                    <h5>Connect with us</h5>
+                    <div class="social-links clearfix">
+                            <img src= "{{"/img/facebook.png" | prepend: site.baseurl }}" alt="">
+                            <img src= "{{"/img/twitter.png" | prepend: site.baseurl }}" alt="">
+                            <img src= "{{"/img/instagram.png" | prepend: site.baseurl }}" alt="">
+                    </div>
+                </div>
+
+                <div class="press columns small-4">
+                    <h5>Press Inquiries</h5>
+                    <!-- TODO make this an email link -->
+                    <a href="">press@chavezrestaurant.com</a>
                 </div>
 
             </div>

@@ -132,13 +132,20 @@
     padding: $spacing-unit 0;
     background-color: white;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-    min-height: 50px; 
+    // min-height: auto; 
+    height: auto;
     // max-height: 50px;
+    // border: black solid;
+
 
     h5 {
-        margin-bottom: .2em;
+        margin-bottom: .1em;
     }
 
+    .social-links  {
+    opacity: 0.8;
+    padding-right: 1.5em;
+    }   
 }
 
 // .footer-heading {
