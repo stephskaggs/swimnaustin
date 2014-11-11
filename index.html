@@ -28,8 +28,12 @@ layout: default
       
     {% for post in site.categories.swim%}
       <div class="all-swim-holes column small-12 medium-6 large-4">
-        <a href="{{ post.url }}" class="darken"><img class="hole_thumb_holder" src="{{ post.cover_photo_url }}">
+        <a href="{{ post.url | prepend: site.baseurl}}" class="darken"><img class="hole_thumb_holder" src="{{ post.cover_photo_url | prepend: site.baseurl }}">
+
+
+
         <h1 class="hole-title">{{ post.title }}</h1>
+
         </a>
       </div>
     {% endfor %}
