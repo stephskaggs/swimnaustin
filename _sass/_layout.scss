@@ -140,12 +140,34 @@
 
     h5 {
         margin-bottom: .1em;
+        font-size: .9em;
+        // border: black solid;
+        // text-transform: uppercase;
     }
 
-    .social-links  {
-    opacity: 0.8;
-    padding-right: 1.5em;
+    .social {
+        align: center;
+        }
+
+        .social-links  {
+        opacity: 0.8;
+        align: center;
+        padding-right: 1.5em;
+        padding-left: 1em;
+        // border: black solid;
     }   
+
+    p {
+        font-size: .8em;
+    }
+
+    .column {
+        border: black solid;
+    }
+
+    a {
+      font-size: .8em;  
+    }
 }
 
 // .footer-heading {
@@ -310,6 +332,7 @@
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: .5px;
+    margin-bottom: 1.1em;
 }
 
 // #hole-thumbnails {
