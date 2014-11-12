@@ -8,9 +8,11 @@ hero: /img/subhero3.jpg
 
 --- 
 
-<p class="body-copy">If you’ve spent a summer in Austin you understand why swimming holes are so popular. It's really hot here. Like, really hot. Coincidentally, swimming holes are cool. (No apologies for the pun. They are.)<br>But after a few years and dozens (and dozens) of trips to swimming holes throughout each summer, we got annoyed with checking a bunch of different sites to find hours, costs, parking information, blah, blah, blah. And then checking Instagram to see the status. Water? No water? Big crowd? Deserted?<br>And that’s where this site comes in. See the swimming holes. Get the information. Check Instagram.<br>
+<p>If you’ve spent a summer in Austin you understand why swimming holes are so popular. It's really hot here. Like, really hot. Coincidentally, swimming holes are cool. (No apologies for the pun. They are.)
 
-<p class="body-copy">You're welcome. Now grab your suit and go swimming.</p>
+<p>But after a few years and dozens (and dozens) of trips to swimming holes throughout each summer, we got annoyed with checking a bunch of different sites to find hours, costs, parking information, blah, blah, blah. And then checking Instagram to see the status. Water? No water? Big crowd? Deserted?And that’s where this site comes in. See the swimming holes. Get the information. Check Instagram.</p>
+
+<p>You're welcome. Now grab your suit and go swimming.</p>
 
 
   
