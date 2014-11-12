@@ -138,6 +138,7 @@
     // border: black solid;
 
 
+
     h5 {
         margin-bottom: .1em;
         font-size: .9em;
@@ -147,27 +148,31 @@
 
     .social {
         align: center;
-        }
 
         .social-links  {
         opacity: 0.8;
         align: center;
         padding-right: 1.5em;
-        padding-left: 1em;
-        // border: black solid;
+        // padding-left: 1em;
+
+            i {
+                font-size: 1.5em;
+                padding-left: .2em;
+                padding-right: .2em;
+            }
     }   
 
     p {
         font-size: .8em;
     }
 
-    .column {
-        border: black solid;
-    }
 
     a {
       font-size: .8em;  
     }
+
+}
+
 }
 
 // .footer-heading {
@@ -326,6 +331,10 @@
 //     overflow: hidden;
 // }
 
+.home-body {
+    width: 100%;
+}
+
 .hole-intro {
     text-align: center;
     font-weight: 400;
@@ -363,14 +372,10 @@
     
 }
 
-// .swim-holes-container {
-//     border: solid blue;
-//     width: 100%;
-//     margin-left: 0;
-//     margin-right: 0;
-//     max-width: initial;
-//     position: center;
-// }
+.swim-holes-container {
+    margin-bottom: 4em;
+    
+}
 
 .all-swim-holes {
     padding: .5em;
