@@ -157,9 +157,14 @@
 
         a {
         font-size: .8em;  
+        color: $grey-color;
+        }
+
+        a:hover {
+        color: $grey-color-dark;
         }
     }
-
+        
    .flickr {
         padding-bottom: .8em;
    }
